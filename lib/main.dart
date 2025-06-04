@@ -2,9 +2,10 @@ import 'dart:convert';
 import 'dart:html' as html;
 
 import 'package:flutter/material.dart';
+import 'package:mini_app/contract_list_screen.dart';
 
 void main() {
-  runApp(const MiniApp());
+  runApp(MaterialApp(home: const ContactListScreen()));
 }
 
 class MiniApp extends StatefulWidget {
