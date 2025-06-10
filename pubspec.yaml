@@ -15,6 +15,7 @@ dependencies:
   mobile_scanner: ^6.0.10
   http: ^1.4.0
   intl: ^0.20.2
+  basic_utils: ^5.8.2
 
 
 dev_dependencies:

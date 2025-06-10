@@ -1,14 +1,16 @@
+// TODO: App này test xin quyền
+
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 
-class ScanQrScreen extends StatefulWidget {
-  const ScanQrScreen({super.key});
+class SampleApp1 extends StatefulWidget {
+  const SampleApp1({super.key});
 
   @override
-  State<ScanQrScreen> createState() => _ScanQrScreenState();
+  State<SampleApp1> createState() => _SampleApp1State();
 }
 
-class _ScanQrScreenState extends State<ScanQrScreen> {
+class _SampleApp1State extends State<SampleApp1> {
   final MobileScannerController controller = MobileScannerController(
     returnImage: true,
     torchEnabled: true,
